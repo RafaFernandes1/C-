@@ -1,0 +1,38 @@
+﻿<Window x:Class="WpfMeuTime.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMeuTime"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="353" Width="449">
+    <Grid>
+        <Label Content="                                     Acompanhe a MACACA" HorizontalAlignment="Left" Margin="34,10,0,0" VerticalAlignment="Top" Width="316"/>
+        <Label Content="A.A.P.P.      " HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.632,0.656" Width="48"/>
+        <TextBox x:Name="txtAdver" HorizontalAlignment="Left" Margin="139,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79"/>
+        <TextBox x:Name="txtPont" HorizontalAlignment="Left" Margin="10,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48"/>
+        <Button x:Name="btnCalcular" Content="CALCULAR" HorizontalAlignment="Left" Margin="60,157,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.584,0.403" Width="78" Click="btnCalcular_Click"/>
+        <Label Content="ESTATÍSTICAS" HorizontalAlignment="Left" Margin="318,45,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label Content="Pontos" HorizontalAlignment="Left" Margin="350,81,0,0" VerticalAlignment="Top" Width="61"/>
+        <Label Content="Vitórias" HorizontalAlignment="Left" Margin="350,137,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Empates" HorizontalAlignment="Left" Margin="349,157,0,0" VerticalAlignment="Top" Width="61"/>
+        <Label Content="Derrotas" HorizontalAlignment="Left" Margin="349,178,0,0" VerticalAlignment="Top" Width="61" RenderTransformOrigin="0.511,0.611"/>
+        <Label Content="Gols Pro" HorizontalAlignment="Left" Margin="350,216,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Gols Contra" HorizontalAlignment="Left" Margin="350,236,0,0" VerticalAlignment="Top" Width="72"/>
+        <Label Content="Saldo de Gols" HorizontalAlignment="Left" Margin="350,257,0,0" VerticalAlignment="Top" Width="84"/>
+        <Label Content="Jogos" HorizontalAlignment="Left" Margin="350,102,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label x:Name="lblPontos" Content="0" HorizontalAlignment="Left" Margin="328,81,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblJogo" Content="0" HorizontalAlignment="Left" Margin="328,102,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblSaldo" Content="0" HorizontalAlignment="Left" Margin="328,257,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblGolC" Content="0" HorizontalAlignment="Left" Margin="328,236,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblGolP" Content="0" HorizontalAlignment="Left" Margin="328,216,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblDerrota" Content="0" HorizontalAlignment="Left" Margin="328,178,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblEmpate" Content="0" HorizontalAlignment="Left" Margin="328,157,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblVitoria" Content="0" HorizontalAlignment="Left" Margin="328,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.703,2.043"/>
+        <Label Content="X" HorizontalAlignment="Left" Margin="86,76,0,0" VerticalAlignment="Top" Width="26" Height="39" FontSize="24"/>
+        <Label Content="ADVERSÁRIO" HorizontalAlignment="Left" Margin="139,58,0,0" VerticalAlignment="Top" Width="85"/>
+        <Label Content="GOLS" HorizontalAlignment="Left" Margin="159,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="GOLS" HorizontalAlignment="Left" Margin="14,110,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="imgPonte" HorizontalAlignment="Left" Height="113" Margin="34,191,0,0" VerticalAlignment="Top" Width="127"/>
+    </Grid>
+</Window>
